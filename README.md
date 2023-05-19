@@ -2,9 +2,9 @@
 A very simple development framework based on the technology stack which includes react, spring-boot and MySQL, etc,.
 
 # To run frontend
-:  cd frontend /n
-:  npm install /n
-:  npm run start /n
+:  cd frontend
+:  npm install
+:  npm run start
 
 
 # To run backend
