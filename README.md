@@ -9,15 +9,17 @@ CREATE TABLE `volunteer` (`id` int(11) NOT NULL AUTO_INCREMENT, `lastname` varch
 insert into `volunteer` (`id`, `lastname`,`firstname`, `email`, `phonenumber`, `gender`,  `birthday`) values('1','Dong','Tony','tonydong2030@gmail.com','086123456789','M','1998-04-02'); 
 
 ### To run frontend
-cd frontend 
-npm install 
-npm run start 
-
+```sh
+$ cd frontend 
+$ npm install 
+$ npm run start 
+```
 ### To run backend
-cd backend 
-mvn install 
-mvn spring-boot:run 
-
+```sh
+$ cd backend 
+$ mvn install 
+$ mvn spring-boot:run 
+```
 ### visit via browser
 http://localhost:3000 
 
